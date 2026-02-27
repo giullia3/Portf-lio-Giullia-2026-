@@ -43,4 +43,31 @@ font-size: 1.7rem;
 color: var(--text-color);
 font-weight: 600;
 cursor: default;
+  } 
+  
+  .nav-responsive {
+ display: none;   
+ position: absolute;
+ top: 100%;
+ right: 0;
+ width: 100%;
+ padding: 1rem;
+ background-color: rgb(0, 0, 0, 0.4);
+ flex-direction: column;
+
   }
+.nav a, .nav-responsive a {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+ }
+
+ .nav a:houver, .nav-responsive a:houver {
+color: var(--main-color)
+ }
+ section {
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+ }
+
